@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front Page</title>
+    <style>
+        body {
+            background-image: url(bg1.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: static;
+        }
+
+        #one img {
+            margin-left: 48%;
+            border-radius: 60px;
+            border: 2px solid aqua;
+            border-color: aqua;
+            box-shadow: 8px 8px 10px rgb(96, 181, 181), -8px -8px 10px rgb(96, 181, 181);
+            /* border: 2px solid black; */
+            animation-name: ani;
+            animation-duration: 3.4s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes ani {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.03);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        #one img:hover {
+            box-shadow: 8px 8px 10px rgba(209, 95, 28, 0.904), -8px -8px 10px rgba(195, 103, 34, 0.832);
+            border: 2px solid orangered;
+            transform: scale(1);
+            /* border: 2px solid black; */
+        }
+
+        #one {
+            margin-top: 21.9%;
+            /* border: 2px solid black; */
+            margin-left: 490px;
+            margin-right: 500px;
+            padding-right: 132px;
+            /* display: inline; */
+        }
+
+        #two {
+            margin-left: 60.46%;
+            /* margin-left: 200px; */
+            margin-right: 2%;
+            text-align: center;
+            color: aqua;
+            margin-top: -130px;
+            /* border: 2px solid black; */
+            justify-content: center;
+        }
+
+        #three {
+            width: 11.8%;
+            margin-left: 74.9%;
+            margin-top: 28px;
+            /* border: 2px solid black; */
+        }
+
+        #three a {
+            padding: 10px;
+        }
+
+        .fade {
+            opacity: 1;
+            transition: opacity 0.5s ease-in-out;
+            animation: fadeIn 2s forwards;
+            /* border: 2px solid black; */
+            margin-left: 75px;
+            margin-right: 62px;
+            /* display: flex;
+            justify-content: center; */
+        }
+
+        .fs {
+            /* border: 2px solid black; */
+            margin-left: 60px;
+            margin-right: 47px;
+            /* padding-left: 20px; */
+        }
+
+        .fade:hover {
+            opacity: 1;
+
+            @keyframes fadeIn {
+                to {
+                    opacity: 1.5;
+                }
+            }
+
+            /* background-color: yellow; */
+            color: aqua;
+            text-shadow: 3px 3px 10px rgba(209, 95, 28, 0.904),
+            -3px -3px 10px rgba(195, 103, 34, 0.832);
+            ;
+            text-shadow: 2px 2px 15px orange;
+            font-weight: bolder;
+            /* font-size: 40px; */
+        }
+    </style>
+</head>
+
+<body>
+    <div id="one">
+        <img src="WhatsApp Image 2024-06-19 at 1.10.10 PM.jpeg" alt="purushottam" height="165px" width="140px">
+    </div>
+    <div id="two">
+        <h1 class="fade">PURUSHOTTAM B N</h1>
+        <H3 class="fs">Full Stack Web Developer</H3>
+    </div>
+    <div id="three">
+        <a href="https://www.linkedin.com/in/purushottam-b-n-9ba7a122a"><img src="linkedin.png" alt="linkedin"
+                height="25px" width="25px"></a>
+        <a href="https://www.instagram.com/purushottamshetty3?igsh=MW1hNXdldjhxY2RrZg=="><img src="instagram.png"
+                alt="insta" height="25px" width="25px"></a>
+        <a href="https://github.com/PurushottamPurshi05/"><img src="github (1).png" alt="github" height="25px"
+                width="25px"></a>
+    </div>
+</body>
+
+</html>
